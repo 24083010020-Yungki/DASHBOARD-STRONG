@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # 🔹 Konfigurasi Halaman
 # -----------------------------------
 st.set_page_config(
-    page_title="DASHBOARD SURVEI FASILITAS KANTIN UPN VETERAN JAWA TIMUR",
+    page_title="DASHBOARD ANALISIS FASILITAS KANTIN UPN VETERAN JAWA TIMUR",
     page_icon="🍽️",
     layout="wide"
 )
@@ -53,7 +53,7 @@ st.markdown("""
 # -----------------------------------
 # 🔹 Header Formal
 # -----------------------------------
-st.markdown('<div class="main-title">🍽️ DASHBOARD ANALISIS SURVEI FASILITAS KANTIN KAMPUS</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">🍽️ DASHBOARD ANALISIS FASILITAS KANTIN KAMPUS</div>', unsafe_allow_html=True)
 
 # -----------------------------------
 # 🔹 Load Data
@@ -215,7 +215,8 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align:center; color:#666; font-size:13px; padding-top:10px;">
 © 2025 UPN "Veteran" Jawa Timur<br>
-Dashboard Survei Fasilitas Kantin Kampus<br>
+Dashboard Analisis Fasilitas Kantin Kampus<br>
 Dibuat oleh <b>Kelompok STRONG</b>
 </div>
 """, unsafe_allow_html=True)
+
